@@ -2,3 +2,8 @@ datasets
 .ipynb_checkpoints
 images
 __pycache__
+*.jp*
+output
+*.pickle
+*.npz
+fruit-360
