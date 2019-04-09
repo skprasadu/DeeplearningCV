@@ -6,4 +6,4 @@ __pycache__
 output
 *.pickle
 *.npz
-fruit-360
+fruits-360
