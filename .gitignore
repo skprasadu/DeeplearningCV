@@ -7,3 +7,12 @@ output
 *.pickle
 *.npz
 fruits-360
+17_flowers
+fashion_mnist
+fashion-mnist.tar.gz
+images
+images.zip
+monkey_breed
+simpsons
+Trained Models
+LittleVGG.png
