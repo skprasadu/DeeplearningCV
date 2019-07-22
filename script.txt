@@ -1,0 +1,5 @@
+docker build . -t kp-jupyter-keras
+
+docker run -d -v C:/my-applications/docker/keras/:/home/jovyan/work -p 8888:8888 kp-jupyter-keras start-notebook.sh --NotebookApp.token=''
+
+docker run -v C:/my-applications/docker/keras/:/app -p 8888:8888 -it kp-jupyter-keras /bin/bash -c "source /usr/local/bin/virtualenvwrapper.sh && workon OpenCV-master-py3 && jupyter notebook --ip=0.0.0.0 --no-browser --allow-root"
